@@ -1,0 +1,8 @@
+Sorting:
+`````````
+SOrting is the process of arranging
+
+Bubble Sort:
+````````````
+It compares one number to its next number in the list (comparision of two adjacent elements) and the largest is placed at the end (ascending)
+-No. of rounds will be (length-1)
