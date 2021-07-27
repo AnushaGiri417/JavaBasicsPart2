@@ -4,13 +4,14 @@ public class NaN {
     public static void main(String[] args) {
         /**
          *
-         * What is NaN - Not a Number?
+         * What is NaN? - Not a Number
+         * It is undefined number.
          * How is NaN defined in different languages?
          * Java, C, C++, Ruby, Python, JavaScript
          *
          */
 
-        //It is undefined number.
+        //
         System.out.println(2%0.0);
         System.out.println(Math.sqrt( -1 ));
         System.out.println(Float.NaN);
@@ -23,6 +24,8 @@ public class NaN {
 
      //We cannot compare two NaN because they both are two undefined numbers
      //This behaviour is same over other programming languages
+
+
 
     }
 }

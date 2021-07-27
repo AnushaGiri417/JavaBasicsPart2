@@ -8,10 +8,12 @@ public class DivideByZero {
          */
      //   System.out.println(5/0); //Throws ArithmeticException
         System.out.println(9.0/0); //Doesn't throw any ArithmeticException  //output - Infinity
+        System.out.println(9/0.0); //output - Infinity
         System.out.println(12.33f/0); //output - Infinity
         System.out.println(19.99999d/0); //output - Infinity
-     //   System.out.println(0/0); //Throws ArithmeticException because both are integers
-        System.out.println(10/0.0); //output - Infinity
+
+        //   System.out.println(0/0); //Throws ArithmeticException because both are integers
+
         System.out.println(0.0/0); //output - NaN  (value defined in double class; means like a null value)
         System.out.println(0.0/0.0); //output - NaN (Not a Number)
         System.out.println(12.33/0.0);
